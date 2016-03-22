@@ -1,0 +1,13 @@
+type Author {
+  id: String
+  name: String
+}
+
+type Query {
+  viewer: Viewer
+}
+
+type Viewer {
+  authors: [Author]
+  author(id: String): Author
+}
