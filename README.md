@@ -1,8 +1,10 @@
-# Simple Webpack shell
+# GraphQL Example with React and Relay
 
-Very simple project with:
+Node JS server with graphQL set up
+Client side using react and relay to fetch data
 
-- Webpack
-- Sass
-- Babel (es6)
-- Single HTML file
+## Development
+
+`gulp update-schema` - updates graphQL schema file which is used in babel compilation, do this EVERY time the schema is changed
+
+`gulp`
